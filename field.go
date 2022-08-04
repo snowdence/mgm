@@ -8,7 +8,7 @@ import (
 
 // IDField struct contains a model's ID field.
 type IDField struct {
-	ID primitive.ObjectID `json:"id" bson:"_id,omitempty"`
+	ID primitive.ObjectID `json:"_id" bson:"_id,omitempty"`
 }
 
 // DateFields struct contains the `created_at` and `updated_at`
