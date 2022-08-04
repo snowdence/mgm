@@ -1,7 +1,5 @@
 package crud
 
-import "github.com/kamva/mgm/v3"
-
 func crud() error {
 
 	book := newBook("Test", 124)

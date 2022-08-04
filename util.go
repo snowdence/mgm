@@ -1,8 +1,8 @@
 package mgm
 
 import (
-	"github.com/kamva/mgm/v3/internal/util"
 	"github.com/jinzhu/inflection"
+	"github.com/snowdence/mgm/v3/internal/util"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"reflect"
 )

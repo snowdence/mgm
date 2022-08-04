@@ -1,4 +1,4 @@
-module github.com/kamva/mgm/v3
+module github.com/snowdence/mgm/v3
 
 go 1.14
 

@@ -1,9 +1,5 @@
 package crud
 
-import (
-	"github.com/kamva/mgm/v3"
-)
-
 type book struct {
 	mgm.DefaultModel `bson:",inline"`
 	Name             string `json:"name" bson:"name"`
